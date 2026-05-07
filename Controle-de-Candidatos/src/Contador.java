@@ -19,7 +19,7 @@ public class Contador {
             throw new ParametrosInvalidosException();
         }
         int contador = numero1 - numero2;
-        for (int i = contador; i <= numero2; i++){
+        for (int i = 0; i <= contador; i++){
             System.out.println("Imprimindo o numero:" +i);
         }
 
