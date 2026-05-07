@@ -11,11 +11,11 @@ public class Contador {
         try {
             contar(numero1, numero2);
         } catch (ParametrosInvalidosException e) {
-            System.out.println("O primiero número deve ser maior que o segundo número");
+            System.out.println("O primeiro número deve ser maior que o segundo número");
         }
     }
     public static void contar(int numero1, int numero2) throws ParametrosInvalidosException{
-        if(numero1 > numero2){
+        if(numero2 > numero1){
             throw new ParametrosInvalidosException();
         }
         int contador = numero1 - numero2;
